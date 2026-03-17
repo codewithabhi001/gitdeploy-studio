@@ -5,7 +5,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '/gitdeploy-studio',
-  assetPrefix: '/gitdeploy-studio',
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;
